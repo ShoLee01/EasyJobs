@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styleper.css" />
+    <meta name="copyright" content="Jobmil" />
+    <link rel="icon" href="images/rueda.png" />
+    
+  </head>
+
+  <body class="main">
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-md navbar-light bg-faded color_menu">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/rueda.png"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt=""
+            loading="lazy"
+          />
+          EasyJobs
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="navbar-nav ml-auto text-center">
+            <a class="nav-item nav-link" href="tienda.html">Inicio</a>
+            <a class="nav-item nav-link" href="index.html">Cerrar Sesión</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+      <!-- Inicio registro -->
+      <div class="container emp-profile">
+        <form method="post">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt=""/>
+                        <div class="file btn btn-lg btn-primary text-white">
+                            Cambiar foto
+                            <input type="file" name="file"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="profile-head">
+                                <h5>
+                                    Katherin Bolilobos
+                                </h5>
+                                <h6>
+                                    Técnica electricista
+                                </h6>
+                                <p class="proile-rating">RANKINGS : <span>20/2000</span></p>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="btn1" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Acerca de mí</a>
+                            </li>
+                            <li class="nav-item" >
+                                <a class="nav-link"  id="btn2" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Información</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <input type="button" class="profile-edit-btn" name="btnAddMore" value="Editar perfil" src="#"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-work">
+                        <p>Experiencia Laboral</p>
+                        <a href="">Sitio web personal</a><br/>
+                        <a href="">Perfil Likedin</a><br/>
+                        <a href="">Curriculum vitae</a>
+                        <p>Habilidades</p>
+                        <a href="">Aptitudes mecánicas</a><br/>
+                        <a href="">Conocimineto en electrónica</a><br/>
+                        <a href="">Reparacion de equipos electricós</a><br/>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="tab-content profile-tab" id="myTabContent">
+                        <div class="tab-pane fade active show" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>ID de usuario</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Kat123</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Nombre</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Katherin Bolilobos</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Email</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Kat123@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Teléfono</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>+51 923567045</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Profesional</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Electricista</p>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Experiencia</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Experto</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Tarifa por hora</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>S/20</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Total de trabajos realizados</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>230</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Nivel de ingles</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Expert</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Disponibilidad</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>24/7</p>
+                                        </div>
+                                    </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label>Biografía</label><br/>
+                                    <p>Descripción detellada</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>           
+    </div>
+    <script src="js/text.js">
+    </script>
+      <!-- FinRegistro -->
+    
+  </body>
+</html>

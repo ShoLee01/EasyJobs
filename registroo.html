@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/styles.css" />
+    <meta name="copyright" content="Jobmil"> 
+    <link rel="icon" href="images/rueda.png">
+    <link
+      rel="stylesheet"
+      href="fonts/material-icon/css/material-design-iconic-font.min.css"/>
+</head>
+
+<body class="main">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-faded color_menu ">
+                 
+            
+            <a class="navbar-brand "  href="index.html">
+                <img src="images/rueda.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                EasyJobs
+            </a>
+       
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="navbar-nav ml-auto text-center">
+                  <a class="nav-item nav-link" href="index.html">Home</a>
+                  <a class="nav-item nav-link" href="iniciar.html">Iniciar Sesión</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+<main class="body_all">
+<!-- Inicio registro -->
+<section class="signup">
+    <div class="container">
+      <div class="signup-content">
+        <div class="signup-form">
+          <h2 class="form-title">Registrarse</h2>
+          <form method="POST" class="register-form" id="register-form">
+            <div class="form-group">
+              <label for="name"
+                ><i class="zmdi zmdi-account material-icons-name"></i
+              ></label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Tu Nombre"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email"><i class="zmdi zmdi-email"></i></label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Tu Correo"
+              />
+            </div>
+            <div class="form-group">
+              <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+              <input
+                type="password"
+                name="pass"
+                id="pass"
+                placeholder="Contraseña"
+              />
+            </div>
+            <div class="form-group">
+              <label for="re-pass"
+                ><i class="zmdi zmdi-lock-outline"></i
+              ></label>
+              <input
+                type="password"
+                name="re_pass"
+                id="re_pass"
+                placeholder="Repite tu contraseña"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="checkbox"
+                name="agree-term"
+                id="agree-term"
+                class="agree-term"
+              />
+              <label for="agree-term" class="label-agree-term"
+                ><span><span></span></span>Acepto todas las declaraciones en los
+                <a href="#" class="term-service">Términos de servicio</a></label
+              >
+            </div>
+            <div class="form-group form-button">
+              <a  class="Registro_a" href="iniciar.html">Registrar</a>
+            </div>
+          </form>
+        </div>
+        <div class="signup-image">
+          <figure>
+            <img src="images/undraw_Agreement_re_d4dv.svg" alt="sing up image" />
+          </figure>
+          <a href="iniciar.html" class="signup-image-link">Ya soy miembro</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- FinRegistro -->
+</main>
+<script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-23581568-13");
+    </script>
+    <script
+      defer
+      src="../../../../static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"rayId":"65aaf9524a670a0a","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.5.2","si":10}'
+    ></script>
+</body>
+</html>
